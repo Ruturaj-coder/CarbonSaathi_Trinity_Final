@@ -1,0 +1,563 @@
+{
+  "technologies": [
+    {
+      "id": "tech-001",
+      "name": "Solar Photovoltaic Systems",
+      "category": "Renewable Energy",
+      "description": "Solar photovoltaic systems convert sunlight directly into electricity. They can be installed on rooftops, open land, or integrated into building materials.",
+      "reductionFactor": 0.8,
+      "implementationTime": {
+        "min": 6,
+        "max": 12,
+        "unit": "months"
+      },
+      "cost": {
+        "capital": {
+          "min": 800,
+          "max": 1200,
+          "unit": "USD/kW"
+        },
+        "operational": {
+          "min": 10,
+          "max": 20,
+          "unit": "USD/kW/year"
+        }
+      },
+      "lifetime": {
+        "min": 25,
+        "max": 30,
+        "unit": "years"
+      },
+      "maintenanceCost": {
+        "min": 1.5,
+        "max": 2.5,
+        "unit": "% of capital cost per year"
+      },
+      "applicability": {
+        "sectors": ["Manufacturing", "Commercial Buildings", "Mining", "Education", "Healthcare"],
+        "requirements": ["Suitable roof or land area", "Solar irradiance > 3.5 kWh/m²/day"],
+        "limitations": ["Weather dependent", "Requires significant space for large-scale implementation"]
+      },
+      "caseStudies": [
+        {
+          "title": "Manufacturing Plant Solar Integration",
+          "location": "Tamil Nadu, India",
+          "reductionAchieved": "65% reduction in grid electricity consumption",
+          "implementationCost": "₹95 million for 5 MW system",
+          "paybackPeriod": "4.5 years"
+        },
+        {
+          "title": "Coal Mine Operations Electrification",
+          "location": "Jharkhand, India",
+          "reductionAchieved": "43% reduction in diesel generator usage",
+          "implementationCost": "₹120 million for 6.5 MW system",
+          "paybackPeriod": "5.2 years"
+        }
+      ],
+      "emissionReductionPotential": {
+        "min": 350,
+        "max": 450,
+        "unit": "tCO2e/MW/year"
+      }
+    },
+    {
+      "id": "tech-002",
+      "name": "Energy-Efficient Mining Equipment",
+      "category": "Energy Efficiency",
+      "description": "Modern energy-efficient mining equipment including haul trucks, excavators, and processing equipment with improved fuel efficiency and electric alternatives.",
+      "reductionFactor": 0.35,
+      "implementationTime": {
+        "min": 12,
+        "max": 36,
+        "unit": "months"
+      },
+      "cost": {
+        "capital": {
+          "min": 25,
+          "max": 40,
+          "unit": "% premium over conventional equipment"
+        },
+        "operational": {
+          "min": -15,
+          "max": -25,
+          "unit": "% reduction in operational costs"
+        }
+      },
+      "lifetime": {
+        "min": 8,
+        "max": 15,
+        "unit": "years"
+      },
+      "maintenanceCost": {
+        "min": 4,
+        "max": 6,
+        "unit": "% of capital cost per year"
+      },
+      "applicability": {
+        "sectors": ["Mining", "Construction"],
+        "requirements": ["Equipment replacement schedule", "Technical training"],
+        "limitations": ["High upfront costs", "May require infrastructure upgrades"]
+      },
+      "caseStudies": [
+        {
+          "title": "Open-Pit Coal Mine Equipment Upgrade",
+          "location": "Chhattisgarh, India",
+          "reductionAchieved": "32% reduction in diesel consumption",
+          "implementationCost": "₹850 million fleet upgrade",
+          "paybackPeriod": "6.8 years"
+        }
+      ],
+      "emissionReductionPotential": {
+        "min": 15000,
+        "max": 25000,
+        "unit": "tCO2e/year for average mine"
+      }
+    },
+    {
+      "id": "tech-003",
+      "name": "Methane Capture and Utilization",
+      "category": "Emission Capture",
+      "description": "Systems to capture methane from coal mines and utilize it for electricity generation or heat production, preventing its release to the atmosphere.",
+      "reductionFactor": 0.75,
+      "implementationTime": {
+        "min": 18,
+        "max": 36,
+        "unit": "months"
+      },
+      "cost": {
+        "capital": {
+          "min": 2.5,
+          "max": 4.0,
+          "unit": "million USD/MW"
+        },
+        "operational": {
+          "min": 0.1,
+          "max": 0.2,
+          "unit": "million USD/MW/year"
+        }
+      },
+      "lifetime": {
+        "min": 15,
+        "max": 20,
+        "unit": "years"
+      },
+      "maintenanceCost": {
+        "min": 3,
+        "max": 5,
+        "unit": "% of capital cost per year"
+      },
+      "applicability": {
+        "sectors": ["Mining", "Oil & Gas"],
+        "requirements": ["Methane concentration > 25%", "Consistent gas flow"],
+        "limitations": ["Variable methane content", "Regulatory approvals required"]
+      },
+      "caseStudies": [
+        {
+          "title": "Underground Coal Mine Methane Utilization",
+          "location": "West Bengal, India",
+          "reductionAchieved": "85% reduction in methane emissions",
+          "implementationCost": "₹320 million for 5 MW generation capacity",
+          "paybackPeriod": "4.2 years"
+        }
+      ],
+      "emissionReductionPotential": {
+        "min": 40000,
+        "max": 60000,
+        "unit": "tCO2e/year for average mine"
+      }
+    },
+    {
+      "id": "tech-004",
+      "name": "Smart Energy Management Systems",
+      "category": "Digitalization",
+      "description": "IoT-based monitoring and control systems that optimize energy usage across mining operations, buildings, and industrial processes.",
+      "reductionFactor": 0.25,
+      "implementationTime": {
+        "min": 3,
+        "max": 12,
+        "unit": "months"
+      },
+      "cost": {
+        "capital": {
+          "min": 50,
+          "max": 150,
+          "unit": "USD/monitoring point"
+        },
+        "operational": {
+          "min": 5,
+          "max": 15,
+          "unit": "USD/monitoring point/year"
+        }
+      },
+      "lifetime": {
+        "min": 7,
+        "max": 10,
+        "unit": "years"
+      },
+      "maintenanceCost": {
+        "min": 5,
+        "max": 10,
+        "unit": "% of capital cost per year"
+      },
+      "applicability": {
+        "sectors": ["Mining", "Manufacturing", "Commercial Buildings", "Healthcare", "Education"],
+        "requirements": ["Existing digital infrastructure", "Staff training"],
+        "limitations": ["Legacy systems integration challenges", "Cyber security concerns"]
+      },
+      "caseStudies": [
+        {
+          "title": "Coal Processing Plant Energy Optimization",
+          "location": "Odisha, India",
+          "reductionAchieved": "22% reduction in electricity consumption",
+          "implementationCost": "₹45 million for plant-wide implementation",
+          "paybackPeriod": "2.1 years"
+        },
+        {
+          "title": "Mining Corporate Campus Energy Management",
+          "location": "Mumbai, India",
+          "reductionAchieved": "31% reduction in building energy use",
+          "implementationCost": "₹15 million for campus implementation",
+          "paybackPeriod": "1.8 years"
+        }
+      ],
+      "emissionReductionPotential": {
+        "min": 5,
+        "max": 15,
+        "unit": "% of total emissions"
+      }
+    },
+    {
+      "id": "tech-005",
+      "name": "Electric Vehicle Fleet Conversion",
+      "category": "Electrification",
+      "description": "Replacement of conventional diesel vehicles with electric alternatives for personnel transport, light duty operations, and eventually heavy equipment.",
+      "reductionFactor": 0.85,
+      "implementationTime": {
+        "min": 12,
+        "max": 48,
+        "unit": "months"
+      },
+      "cost": {
+        "capital": {
+          "min": 30,
+          "max": 100,
+          "unit": "% premium over conventional vehicles"
+        },
+        "operational": {
+          "min": -40,
+          "max": -60,
+          "unit": "% reduction in operational costs"
+        }
+      },
+      "lifetime": {
+        "min": 8,
+        "max": 12,
+        "unit": "years"
+      },
+      "maintenanceCost": {
+        "min": 2,
+        "max": 4,
+        "unit": "% of capital cost per year"
+      },
+      "applicability": {
+        "sectors": ["Mining", "Manufacturing", "Logistics", "Commercial"],
+        "requirements": ["Charging infrastructure", "Grid capacity", "Suitable route profiles"],
+        "limitations": ["Limited heavy-duty options", "Cold weather performance", "Charging time"]
+      },
+      "caseStudies": [
+        {
+          "title": "Mining Staff Transport Electrification",
+          "location": "Karnataka, India",
+          "reductionAchieved": "95% reduction in personnel transport emissions",
+          "implementationCost": "₹120 million for 50 vehicle fleet",
+          "paybackPeriod": "5.5 years"
+        }
+      ],
+      "emissionReductionPotential": {
+        "min": 30,
+        "max": 95,
+        "unit": "% of transport emissions"
+      }
+    },
+    {
+      "id": "tech-006",
+      "name": "Biodiversity Carbon Sinks",
+      "category": "Nature-Based Solutions",
+      "description": "Creation of carbon sinks through reforestation, afforestation, and biodiversity conservation on mining lands and surrounding areas.",
+      "reductionFactor": 0.1,
+      "implementationTime": {
+        "min": 24,
+        "max": 120,
+        "unit": "months"
+      },
+      "cost": {
+        "capital": {
+          "min": 1000,
+          "max": 5000,
+          "unit": "USD/hectare"
+        },
+        "operational": {
+          "min": 100,
+          "max": 300,
+          "unit": "USD/hectare/year"
+        }
+      },
+      "lifetime": {
+        "min": 50,
+        "max": 100,
+        "unit": "years"
+      },
+      "maintenanceCost": {
+        "min": 5,
+        "max": 10,
+        "unit": "% of capital cost per year for first 5 years, decreasing thereafter"
+      },
+      "applicability": {
+        "sectors": ["Mining", "Agriculture", "Forestry", "Corporate Campuses"],
+        "requirements": ["Available land", "Suitable soil and climate", "Long-term commitment"],
+        "limitations": ["Long timeframe for full benefits", "Monitoring requirements", "Vulnerability to fires"]
+      },
+      "caseStudies": [
+        {
+          "title": "Post-Mining Land Restoration",
+          "location": "Jharkhand, India",
+          "reductionAchieved": "12,000 tCO2e sequestered over 15 years",
+          "implementationCost": "₹85 million for 500 hectare project",
+          "paybackPeriod": "Carbon credits obtained after 7 years"
+        }
+      ],
+      "emissionReductionPotential": {
+        "min": 5,
+        "max": 20,
+        "unit": "tCO2e/hectare/year"
+      }
+    },
+    {
+      "id": "tech-007",
+      "name": "Green Hydrogen Production",
+      "category": "Alternative Fuels",
+      "description": "Production of hydrogen through electrolysis powered by renewable energy for use in heavy equipment, heating, and chemical processes.",
+      "reductionFactor": 0.9,
+      "implementationTime": {
+        "min": 36,
+        "max": 60,
+        "unit": "months"
+      },
+      "cost": {
+        "capital": {
+          "min": 3,
+          "max": 7,
+          "unit": "million USD/MW of electrolyzer capacity"
+        },
+        "operational": {
+          "min": 0.1,
+          "max": 0.3,
+          "unit": "million USD/MW/year"
+        }
+      },
+      "lifetime": {
+        "min": 15,
+        "max": 25,
+        "unit": "years"
+      },
+      "maintenanceCost": {
+        "min": 2,
+        "max": 5,
+        "unit": "% of capital cost per year"
+      },
+      "applicability": {
+        "sectors": ["Mining", "Heavy Industry", "Transport"],
+        "requirements": ["Renewable electricity source", "Water availability", "Storage infrastructure"],
+        "limitations": ["Early stage technology", "High costs", "Storage challenges"]
+      },
+      "caseStudies": [
+        {
+          "title": "Green Hydrogen for Mine Haul Trucks",
+          "location": "Rajasthan, India",
+          "reductionAchieved": "Pilot project - 85% reduction in diesel use for 3 trucks",
+          "implementationCost": "₹450 million for 2 MW electrolyzer and infrastructure",
+          "paybackPeriod": "Currently subsidized demonstration project"
+        }
+      ],
+      "emissionReductionPotential": {
+        "min": 75,
+        "max": 95,
+        "unit": "% of fossil fuel emissions for replaced applications"
+      }
+    },
+    {
+      "id": "tech-008",
+      "name": "Process Electrification",
+      "category": "Electrification",
+      "description": "Conversion of thermal processes to electrical alternatives, including electric boilers, furnaces, and processing equipment.",
+      "reductionFactor": 0.6,
+      "implementationTime": {
+        "min": 12,
+        "max": 36,
+        "unit": "months"
+      },
+      "cost": {
+        "capital": {
+          "min": 50,
+          "max": 150,
+          "unit": "% premium over conventional equipment"
+        },
+        "operational": {
+          "min": -10,
+          "max": -30,
+          "unit": "% change in operational costs (dependent on local electricity vs fuel prices)"
+        }
+      },
+      "lifetime": {
+        "min": 15,
+        "max": 25,
+        "unit": "years"
+      },
+      "maintenanceCost": {
+        "min": 2,
+        "max": 4,
+        "unit": "% of capital cost per year"
+      },
+      "applicability": {
+        "sectors": ["Mining", "Manufacturing", "Chemical Processing"],
+        "requirements": ["Reliable electricity supply", "Process redesign", "Technical expertise"],
+        "limitations": ["High temperature applications challenging", "Grid capacity constraints"]
+      },
+      "caseStudies": [
+        {
+          "title": "Coal Drying Process Electrification",
+          "location": "Madhya Pradesh, India",
+          "reductionAchieved": "55% reduction in process emissions",
+          "implementationCost": "₹180 million for plant conversion",
+          "paybackPeriod": "7.2 years"
+        }
+      ],
+      "emissionReductionPotential": {
+        "min": 40,
+        "max": 70,
+        "unit": "% of process emissions"
+      }
+    },
+    {
+      "id": "tech-009",
+      "name": "Waste Heat Recovery Systems",
+      "category": "Energy Efficiency",
+      "description": "Systems that capture and utilize waste heat from industrial processes, engines, and exhaust streams for electricity generation or heating.",
+      "reductionFactor": 0.2,
+      "implementationTime": {
+        "min": 12,
+        "max": 24,
+        "unit": "months"
+      },
+      "cost": {
+        "capital": {
+          "min": 1000,
+          "max": 2500,
+          "unit": "USD/kW recovered"
+        },
+        "operational": {
+          "min": 30,
+          "max": 70,
+          "unit": "USD/kW/year"
+        }
+      },
+      "lifetime": {
+        "min": 15,
+        "max": 20,
+        "unit": "years"
+      },
+      "maintenanceCost": {
+        "min": 3,
+        "max": 6,
+        "unit": "% of capital cost per year"
+      },
+      "applicability": {
+        "sectors": ["Mining", "Manufacturing", "Power Generation"],
+        "requirements": ["Consistent waste heat sources > 120°C", "Space for equipment"],
+        "limitations": ["Low temperature heat less economical", "Process integration complexity"]
+      },
+      "caseStudies": [
+        {
+          "title": "Coal Handling Plant Heat Recovery",
+          "location": "Uttar Pradesh, India",
+          "reductionAchieved": "18% reduction in overall plant energy consumption",
+          "implementationCost": "₹95 million for 2.5 MW equivalent system",
+          "paybackPeriod": "3.8 years"
+        }
+      ],
+      "emissionReductionPotential": {
+        "min": 10,
+        "max": 25,
+        "unit": "% of total thermal emissions"
+      }
+    },
+    {
+      "id": "tech-010",
+      "name": "Wind Turbine Systems",
+      "category": "Renewable Energy",
+      "description": "Wind turbines that convert wind energy into electricity, available in various sizes for different applications.",
+      "reductionFactor": 0.9,
+      "implementationTime": {
+        "min": 12,
+        "max": 36,
+        "unit": "months"
+      },
+      "cost": {
+        "capital": {
+          "min": 1200,
+          "max": 2000,
+          "unit": "USD/kW"
+        },
+        "operational": {
+          "min": 20,
+          "max": 40,
+          "unit": "USD/kW/year"
+        }
+      },
+      "lifetime": {
+        "min": 20,
+        "max": 25,
+        "unit": "years"
+      },
+      "maintenanceCost": {
+        "min": 2,
+        "max": 3,
+        "unit": "% of capital cost per year"
+      },
+      "applicability": {
+        "sectors": ["Mining", "Manufacturing", "Agriculture"],
+        "requirements": ["Average wind speed > 6.5 m/s", "Available land", "Environmental clearances"],
+        "limitations": ["Wind resource variability", "Visual and noise impacts", "Land requirements"]
+      },
+      "caseStudies": [
+        {
+          "title": "Mining Operation Wind Integration",
+          "location": "Gujarat, India",
+          "reductionAchieved": "40% reduction in grid electricity consumption",
+          "implementationCost": "₹750 million for 15 MW installation",
+          "paybackPeriod": "6.3 years"
+        }
+      ],
+      "emissionReductionPotential": {
+        "min": 1500,
+        "max": 2500,
+        "unit": "tCO2e/MW/year"
+      }
+    }
+  ],
+  "categories": [
+    "Renewable Energy",
+    "Energy Efficiency",
+    "Emission Capture",
+    "Digitalization",
+    "Electrification",
+    "Nature-Based Solutions",
+    "Alternative Fuels"
+  ],
+  "metadata": {
+    "lastUpdated": "2023-10-15",
+    "version": "1.0",
+    "source": "CarbonSaathi Technology Database",
+    "description": "Comprehensive database of carbon reduction technologies for various industries"
+  }
+} 

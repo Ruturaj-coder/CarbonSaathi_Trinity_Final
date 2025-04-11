@@ -1,0 +1,332 @@
+[
+  {
+    "id": "tech-001",
+    "name": "Solar Photovoltaic System",
+    "category": "Renewable Energy",
+    "description": "Solar panels that convert sunlight into electricity, reducing reliance on fossil fuel-based grid electricity.",
+    "reduction_factor": 0.40,
+    "implementation_time": 6,
+    "cost": {"installation": 25000, "per_unit": 1500},
+    "lifetime": 25,
+    "maintenance_cost": 500,
+    "applicability": ["Mining", "Manufacturing", "Commercial", "Residential"],
+    "case_studies": [
+      {
+        "title": "Mining Corporation Solar Transition",
+        "description": "A mining company implemented a 500kW solar system, reducing their carbon emissions by 35% in the first year."
+      },
+      {
+        "title": "Manufacturing Plant Solar Implementation",
+        "description": "A manufacturing facility installed solar panels covering 80% of their roof space, meeting 40% of their electricity needs."
+      }
+    ]
+  },
+  {
+    "id": "tech-002",
+    "name": "Electric Vehicle Fleet",
+    "category": "Transportation",
+    "description": "Replacement of traditional combustion engine vehicles with electric alternatives.",
+    "reduction_factor": 0.70,
+    "implementation_time": 12,
+    "cost": {"installation": 5000, "per_unit": 35000},
+    "lifetime": 10,
+    "maintenance_cost": 1200,
+    "applicability": ["Mining", "Logistics", "Commercial"],
+    "case_studies": [
+      {
+        "title": "Logistics Company EV Transition",
+        "description": "A logistics company replaced 50% of their delivery vehicles with EVs, reducing transportation emissions by 60%."
+      },
+      {
+        "title": "Mining Site Transportation Electrification",
+        "description": "A coal mining operation electrified their on-site transportation fleet, reducing diesel consumption by 75%."
+      }
+    ]
+  },
+  {
+    "id": "tech-003",
+    "name": "Energy-Efficient HVAC System",
+    "category": "Energy Efficiency",
+    "description": "Modern HVAC systems with high energy efficiency ratings and smart controls.",
+    "reduction_factor": 0.30,
+    "implementation_time": 3,
+    "cost": {"installation": 15000, "per_unit": 0},
+    "lifetime": 15,
+    "maintenance_cost": 800,
+    "applicability": ["Commercial", "Residential", "Manufacturing"],
+    "case_studies": [
+      {
+        "title": "Office Complex HVAC Upgrade",
+        "description": "A commercial office building upgraded their HVAC system, reducing energy consumption by 25% and improving comfort."
+      },
+      {
+        "title": "Mining Administration Building Retrofit",
+        "description": "A mining company retrofitted their administration buildings with energy-efficient HVAC, reducing energy use by 30%."
+      }
+    ]
+  },
+  {
+    "id": "tech-004",
+    "name": "Methane Capture System",
+    "category": "Emissions Capture",
+    "description": "System designed to capture methane emissions from mining operations and convert to less harmful compounds or utilize as fuel.",
+    "reduction_factor": 0.85,
+    "implementation_time": 18,
+    "cost": {"installation": 180000, "per_unit": 0},
+    "lifetime": 20,
+    "maintenance_cost": 12000,
+    "applicability": ["Mining", "Waste Management", "Agriculture"],
+    "case_studies": [
+      {
+        "title": "Coal Mine Methane Reduction",
+        "description": "A coal mining operation implemented methane capture, reducing their GHG emissions by 75% and generating electricity on-site."
+      },
+      {
+        "title": "Waste Management Methane Utilization",
+        "description": "A landfill site installed methane capture technology, reducing emissions and generating power for 1,500 homes."
+      }
+    ]
+  },
+  {
+    "id": "tech-005",
+    "name": "LED Lighting Upgrade",
+    "category": "Energy Efficiency",
+    "description": "Replacement of traditional lighting with energy-efficient LED solutions.",
+    "reduction_factor": 0.15,
+    "implementation_time": 1,
+    "cost": {"installation": 5000, "per_unit": 25},
+    "lifetime": 15,
+    "maintenance_cost": 200,
+    "applicability": ["Mining", "Manufacturing", "Commercial", "Residential"],
+    "case_studies": [
+      {
+        "title": "Manufacturing Plant Lighting Upgrade",
+        "description": "A manufacturing facility replaced all lighting with LEDs, reducing electricity consumption by 18% and improving visibility."
+      },
+      {
+        "title": "Underground Mining LED Implementation",
+        "description": "A coal mine replaced all underground lighting with LEDs, reducing energy use by 15% and improving safety with better visibility."
+      }
+    ]
+  },
+  {
+    "id": "tech-006",
+    "name": "Improved Insulation",
+    "category": "Energy Efficiency",
+    "description": "Enhanced building insulation to reduce heating and cooling energy requirements.",
+    "reduction_factor": 0.25,
+    "implementation_time": 2,
+    "cost": {"installation": 12000, "per_unit": 15},
+    "lifetime": 30,
+    "maintenance_cost": 100,
+    "applicability": ["Commercial", "Residential", "Manufacturing"],
+    "case_studies": [
+      {
+        "title": "Office Building Insulation Project",
+        "description": "An office complex improved insulation, reducing heating and cooling costs by 22% annually."
+      },
+      {
+        "title": "Mining Facility Thermal Upgrade",
+        "description": "A mining company's processing facility improved insulation, reducing heating requirements by 28% in winter months."
+      }
+    ]
+  },
+  {
+    "id": "tech-007",
+    "name": "Variable Frequency Drives",
+    "category": "Energy Efficiency",
+    "description": "VFDs for motors and pumps to optimize energy usage based on demand.",
+    "reduction_factor": 0.20,
+    "implementation_time": 3,
+    "cost": {"installation": 8000, "per_unit": 1200},
+    "lifetime": 15,
+    "maintenance_cost": 400,
+    "applicability": ["Mining", "Manufacturing", "Water Treatment"],
+    "case_studies": [
+      {
+        "title": "Mining Equipment Efficiency Upgrade",
+        "description": "A mining operation installed VFDs on all major motors, reducing energy consumption by 18% and extending equipment life."
+      },
+      {
+        "title": "Manufacturing Process Optimization",
+        "description": "A heavy industry manufacturer installed VFDs throughout their production line, reducing power consumption by 22%."
+      }
+    ]
+  },
+  {
+    "id": "tech-008",
+    "name": "Biofuel Transition",
+    "category": "Alternative Fuels",
+    "description": "Replacement of fossil fuels with sustainably sourced biofuels for equipment and vehicles.",
+    "reduction_factor": 0.50,
+    "implementation_time": 6,
+    "cost": {"installation": 30000, "per_unit": 0.15},
+    "lifetime": 10,
+    "maintenance_cost": 5000,
+    "applicability": ["Mining", "Transportation", "Agriculture"],
+    "case_studies": [
+      {
+        "title": "Heavy Equipment Biofuel Conversion",
+        "description": "A mining company transitioned 70% of heavy equipment to biofuel blends, reducing emissions by 45%."
+      },
+      {
+        "title": "Transportation Fleet Fuel Switch",
+        "description": "A logistics company converted their long-haul truck fleet to run on biodiesel, reducing their carbon footprint by 50%."
+      }
+    ]
+  },
+  {
+    "id": "tech-009",
+    "name": "Wind Turbine Installation",
+    "category": "Renewable Energy",
+    "description": "On-site wind turbines to generate clean electricity for operations.",
+    "reduction_factor": 0.35,
+    "implementation_time": 18,
+    "cost": {"installation": 120000, "per_unit": 80000},
+    "lifetime": 20,
+    "maintenance_cost": 8000,
+    "applicability": ["Mining", "Manufacturing", "Agricultural", "Coastal Facilities"],
+    "case_studies": [
+      {
+        "title": "Coastal Mining Wind Power",
+        "description": "A coastal mining operation installed three wind turbines, supplying 40% of their electricity needs from renewable sources."
+      },
+      {
+        "title": "Rural Manufacturing Wind Integration",
+        "description": "A manufacturing plant in a windy region installed two turbines, offsetting 35% of their grid electricity consumption."
+      }
+    ]
+  },
+  {
+    "id": "tech-010",
+    "name": "Battery Energy Storage System",
+    "category": "Energy Management",
+    "description": "Large-scale battery storage to optimize renewable energy usage and provide backup power.",
+    "reduction_factor": 0.20,
+    "implementation_time": 12,
+    "cost": {"installation": 75000, "per_unit": 800},
+    "lifetime": 10,
+    "maintenance_cost": 2000,
+    "applicability": ["Mining", "Manufacturing", "Commercial", "Utilities"],
+    "case_studies": [
+      {
+        "title": "Mining Microgrid Implementation",
+        "description": "A remote mining operation implemented a battery storage system with their solar array, reducing diesel generator usage by 60%."
+      },
+      {
+        "title": "Manufacturing Load Shifting",
+        "description": "A manufacturing facility installed battery storage to shift energy consumption to off-peak hours and optimize solar power usage."
+      }
+    ]
+  },
+  {
+    "id": "tech-011",
+    "name": "Heat Recovery Systems",
+    "category": "Energy Efficiency",
+    "description": "Systems that capture waste heat from industrial processes and repurpose it for heating or electricity generation.",
+    "reduction_factor": 0.30,
+    "implementation_time": 9,
+    "cost": {"installation": 35000, "per_unit": 0},
+    "lifetime": 15,
+    "maintenance_cost": 2000,
+    "applicability": ["Mining", "Manufacturing", "Industrial Processing"],
+    "case_studies": [
+      {
+        "title": "Mining Processing Heat Recovery",
+        "description": "A mining processing facility implemented heat recovery, reducing natural gas consumption for heating by 40%."
+      },
+      {
+        "title": "Steel Plant Energy Recapture",
+        "description": "A steel manufacturing plant installed heat recovery technology, utilizing waste heat for electricity generation and reducing emissions by 28%."
+      }
+    ]
+  },
+  {
+    "id": "tech-012",
+    "name": "Hydrogen Fuel Cells",
+    "category": "Alternative Fuels",
+    "description": "Hydrogen fuel cells for power generation or heavy-duty transportation with zero direct emissions.",
+    "reduction_factor": 0.90,
+    "implementation_time": 24,
+    "cost": {"installation": 250000, "per_unit": 55000},
+    "lifetime": 15,
+    "maintenance_cost": 15000,
+    "applicability": ["Mining", "Transportation", "Heavy Industry"],
+    "case_studies": [
+      {
+        "title": "Mining Equipment Hydrogen Conversion",
+        "description": "A large-scale mining operation converted haul trucks to hydrogen fuel cells, virtually eliminating direct emissions from transportation."
+      },
+      {
+        "title": "Industrial Site Hydrogen Microgrid",
+        "description": "An industrial facility implemented hydrogen fuel cells for backup power, replacing diesel generators and reducing emissions during outages."
+      }
+    ]
+  },
+  {
+    "id": "tech-013",
+    "name": "Process Electrification",
+    "category": "Industrial Processes",
+    "description": "Converting fossil fuel-powered industrial processes to electric alternatives.",
+    "reduction_factor": 0.65,
+    "implementation_time": 24,
+    "cost": {"installation": 200000, "per_unit": 0},
+    "lifetime": 20,
+    "maintenance_cost": 10000,
+    "applicability": ["Mining", "Manufacturing", "Industrial Processing"],
+    "case_studies": [
+      {
+        "title": "Mining Process Electrification",
+        "description": "A coal processing facility converted from gas-fired to electric equipment, reducing direct emissions by 70%."
+      },
+      {
+        "title": "Manufacturing Electrification Project",
+        "description": "A manufacturing plant electrified their heating processes, eliminating natural gas usage and reducing their carbon footprint by 65%."
+      }
+    ]
+  },
+  {
+    "id": "tech-014",
+    "name": "Smart Building Management System",
+    "category": "Energy Management",
+    "description": "AI-powered system that optimizes building energy usage through automated controls and monitoring.",
+    "reduction_factor": 0.25,
+    "implementation_time": 6,
+    "cost": {"installation": 45000, "per_unit": 0},
+    "lifetime": 10,
+    "maintenance_cost": 3500,
+    "applicability": ["Commercial", "Mining Facilities", "Manufacturing"],
+    "case_studies": [
+      {
+        "title": "Mining Administration Complex Optimization",
+        "description": "A mining company implemented smart building management across their office complex, reducing energy consumption by 28%."
+      },
+      {
+        "title": "Manufacturing Facility Intelligence System",
+        "description": "A manufacturing plant installed smart building controls, optimizing energy use based on occupancy and production schedules."
+      }
+    ]
+  },
+  {
+    "id": "tech-015",
+    "name": "Carbon Capture and Storage",
+    "category": "Emissions Capture",
+    "description": "Technology that captures CO2 from point sources and stores it underground or repurposes it.",
+    "reduction_factor": 0.95,
+    "implementation_time": 36,
+    "cost": {"installation": 500000, "per_unit": 0},
+    "lifetime": 25,
+    "maintenance_cost": 25000,
+    "applicability": ["Mining", "Power Generation", "Heavy Industry"],
+    "case_studies": [
+      {
+        "title": "Coal Mining CCS Integration",
+        "description": "A coal mining operation implemented CCS technology, capturing and storing 90% of emissions from their coal processing."
+      },
+      {
+        "title": "Industrial Emissions Capture",
+        "description": "A large industrial facility installed carbon capture technology, reducing their CO2 emissions by 85% and utilizing captured carbon for concrete production."
+      }
+    ]
+  }
+] 

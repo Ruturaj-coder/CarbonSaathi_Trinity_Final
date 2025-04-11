@@ -1,0 +1,40 @@
+# CarbonSaathi Project Intelligence
+
+## Project Patterns
+- **Feature Modularity**: Each core feature (Carbon Quantification, Sinks, Simulation, etc.) should be developed as an independent module with clear interfaces
+- **Data Flow Architecture**: Follow a consistent pattern of user input → backend processing → database storage → visualization for all features
+- **AI/ML Integration**: AI components should be designed as services that can be called by the main application, allowing for independent development and scaling
+- **Responsive Design**: All UI components must be designed mobile-first to ensure cross-device compatibility
+
+## User Preferences
+- **Development Focus**: Focus on delivering core carbon quantification and simulation features first before implementing marketplace and reward systems
+- **UI/UX Priority**: Prioritize intuitive data entry and clear visualizations to make complex carbon data accessible
+- **Performance Considerations**: Ensure that data-heavy operations (simulations, analytics) remain responsive even with large datasets
+- **Generalized Application**: Design features to be applicable across multiple industries, not just coal mining
+
+## Implementation Paths
+- **Frontend Development**: Begin with creating the UI component library and core layout before implementing specific feature interfaces
+- **Backend Development**: Start with user authentication and basic CRUD operations before moving to complex calculation engines
+- **Database Implementation**: Set up document schemas and indexes early to support efficient data operations
+- **AI/ML Development**: Begin with simpler statistical models before implementing complex deep learning solutions
+
+## Known Challenges
+- **Technical Complexity**: The project combines multiple advanced technologies (AI/ML, blockchain, microservices) which increases integration complexity
+- **Data Accuracy**: Ensuring precise carbon emission calculations across different industries requires reliable emission factors and calculation methodologies
+- **Performance Optimization**: Simulation and analytics features may require optimization to perform well with large datasets
+- **Resource Constraints**: As a student project, development resources and budget are limited
+
+## Decision Evolution
+- **Initial Focus**: Originally focused specifically on Indian coal mines
+- **Expanded Scope**: Evolved to serve any organization across different industries
+- **Technology Selection**: Chose a modern tech stack with Vite + React, Node.js, FastAPI, and MongoDB to balance performance, flexibility, and development speed
+- **Architecture Approach**: Selected a microservices architecture to allow for modular development and independent scaling of components
+
+## Tool Usage
+- **Frontend**: Vite for fast development, React for component-based UI, Tailwind CSS for styling
+- **Backend**: Node.js + Express for main API, FastAPI for AI/ML services
+- **Data Visualization**: D3.js / Chart.js for interactive data representations
+- **Database**: MongoDB for primary storage, Neo4j for relationship data, FAISS for vector search
+- **AI/ML**: TensorFlow and scikit-learn for models, Hugging Face Transformers for NLP
+- **Version Control**: Git/GitHub for source control
+- **Development Environment**: VS Code as primary IDE 
